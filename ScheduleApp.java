@@ -7,6 +7,8 @@ import java.io.IOException;
 
 Public class ScheduleApp {
 	
+	Public String[] tempSched;
+	
 	/*
 	 * Takes care of reading in the excel file containing a schedule. It outputs the schedule in the form of a String array
 	 * which will be parsed through later.
@@ -41,13 +43,15 @@ Public class ScheduleApp {
 	
 	
 	/*
-	 * 
+	 * Takes the requests for days off and applies them to the master schedule
 	 * 
 	 * output: excel file containing the schedule with changes
 	 */
 	Public static WriteableWorkbook mergeScheduling(String[] master String[] request){
 		
 	}
+	
+	Public static
 	
 	
 	/*
